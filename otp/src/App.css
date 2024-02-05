@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vv;
+
+  font-size: xx-large;
+
+}
+.timer{
+    background-color: rgb(205, 212, 213);
+    width: 20%;
+    padding: 30px;
+    margin-top: 20%;
+    border-radius: 8px;
+}
+button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(53, 51, 155);
+  color: white;
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(105, 104, 147);
+  }
+}
+
+
